@@ -2,7 +2,7 @@
 
 # Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer
 
-This is the official PyTorch implementation of *Bijue Jia, et al. "Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer". Accepted by IJCNN 2019. Prepared for final camera ready submission.*
+This is the official PyTorch implementation of *Bijue Jia, et al. "Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer". Accepted by IJCNN 2019. We are currently preparing for final camera ready submission.*
 (paper)([audio samples](https://jiabijue.github.io/track2tracks/))
 
 
@@ -73,7 +73,7 @@ python3 main.py --mode infer
 python3 main.py --mode infer --exp_name your_experiment_name --restore_epoch your_early_stopping_epoch
 ```
 
-- Pretrained model
+## Pretrained model
 
 - [net_params_20.pth](https://drive.google.com/open?id=11NJ5fnlaIO_M3p-80UX0BiCRUcbqN_9X)
     - default configuration
