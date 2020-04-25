@@ -2,8 +2,8 @@
 
 # Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer
 
-This is the official PyTorch implementation of *Bijue Jia, et al. "Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer". Accepted by IJCNN 2019. We are currently preparing for final camera ready submission.*
-(paper)([audio samples](https://jiabijue.github.io/track2tracks/))
+This is the official PyTorch implementation of *Bijue Jia, et al. "Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer". Accepted by IJCNN 2019.*
+([paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852373))([audio samples](https://jiabijue.github.io/track2tracks/))
 
 
 ## Directory Structure
@@ -82,5 +82,12 @@ python3 main.py --mode infer --exp_name your_experiment_name --restore_epoch you
 
 If you use this code in your research, cite via the following BibTeX:
 ```
-(I'll fill in the blanks here once our paper is published)
+@inproceedings{jia2019impromptu,
+  title={Impromptu Accompaniment of Pop Music using Coupled Latent Variable Model with Binary Regularizer},
+  author={Jia, Bijue and Lv, Jiancheng and Pu, Yifan and Yang, Xue},
+  booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}
 ```
